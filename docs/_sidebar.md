@@ -1,0 +1,4 @@
+- [Home](/)
+- [Appliances](appliances/overview)
+    - [WAGO MID](appliances/wagomid)
+    - [SGReady](appliances/SGready)
