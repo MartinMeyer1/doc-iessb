@@ -8,4 +8,9 @@ SunSpec Alliance is a non-profit industry alliance that develops open communicat
 <img width="20%" src="./img/pv/sunspec.jpg"/>
 </div>
 
+## In practice
+
+In general, SunSpec-compatible inverters operate using Modbus. SunSpec is then utilized to standardize how and where access to the data.
+
+
 For more information, visit the [SunSpec Alliance website](https://sunspec.org/).
