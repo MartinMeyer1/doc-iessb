@@ -20,6 +20,7 @@ Modbus TCP (Transmission Control Protocol) is an extension of the Modbus protoco
 
 3. **Unit ID:** In the context of Modbus TCP, the remote unit is often identified by a number. While the unit address is technically specified for Modbus RTU, some users also assign an identifier to a remote unit in the context of Modbus TCP.
 
+!> **Ensure that all the IP appliances, including modbus TCP, have a static IP.**
 
 ## Modbus RTU
 
