@@ -5,6 +5,8 @@
 - [Energy meter](mid/overview)
     - [Wago MID](mid/wagomid)
 - [Heat Pump](hp/overview)
+- [Solar Inverters](pv/overview)
+    - [Sunspec Inverters](pv/sunspec)
 - [Controller Provisioning](provisioning/overview)
     - [SD Card](provisioning/sdcard)
     - [Building Description](provisioning/bd)

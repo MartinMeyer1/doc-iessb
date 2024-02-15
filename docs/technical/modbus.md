@@ -27,7 +27,7 @@ Modbus RTU (Remote Terminal Unit) is another variant of the Modbus protocol, spe
 
 ### Parameters
 
-1. **Unit Address:** Each slave (device) on the Modbus RTU network is identified by a unique address, usually a number between 1 and 247.
+1. **Unit ID:** Each slave (device) on the Modbus RTU network is identified by a unique address, usually a number between 1 and 247.
 
 2. **Baud Rate:** The data transmission speed between the master and slave must be configured to ensure synchronization. The speed is measured in bauds (bits per second).
 
@@ -37,7 +37,7 @@ Modbus RTU (Remote Terminal Unit) is another variant of the Modbus protocol, spe
 
 5. **Stop Bits:** This indicates the number of stop bits in each communication frame. Most Modbus implementations use 1 stop bit.
 
-!> **Parameters 2 to 5 are set in the HAL (Hardware Abstraction Layer)**
+!> **Parameters 2 to 5 are set in the HAL (Hardware Abstraction Layer), unit ID is set in the driver parameters.**
 
 
 Both Modbus TCP and RTU follow a master-slave architecture, where a master device initiates communication with one or more slave devices. This allows for the exchange of information for monitoring and control purposes. The protocol supports various data types and functions, making it versatile for different applications in industrial settings.
