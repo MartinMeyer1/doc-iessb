@@ -2,6 +2,6 @@
 
 Welcome to the IESSB comissioning documentation!
 
-This documentation was generated using [docsify](https://docsify.js.org/#/).
+## Overview
 
->*"A magical documentation site generator."*
+Quick overview of the project
