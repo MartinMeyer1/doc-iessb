@@ -1,19 +1,16 @@
 - [Home](/)
-- [Electrical Diagram](diagram/overview)
-    - [Principe](diagram/principe)
-    - [Box](diagram/box)
-- [Energy meter](mid/overview)
-    - [Wago MID](mid/wagomid)
-- [Heat Pump](hp/overview)
-- [Solar Inverters](pv/overview)
-    - [Sunspec Inverters](pv/sunspec)
-- Temperature Sensors
-    - [Shelly H&T](temp/shelly)
-    - [PT1000](temp/pt1000)
-- [Controller Provisioning](provisioning/overview)
-    - [SD Card](provisioning/sdcard)
-    - [Building Description](provisioning/bd)
+- Cabling
+    - [Electrical Diagram](1_cabling/diagram)
+    - [PT1000](1_cabling/pt1000)
+    - [Heat Pump](1_cabling/hp)
+    - [Wago MID](1_cabling/wagomid)
+- Appliances Configuration
+    - [Shelly H&T](2_app_conf/shelly)
+- CC100 Setup
+    - [Deployment](3_cc100/deployment)
+- Site Configuration
+- Validation
 - Protocols information
-    - [Modbus](technical/modbus)
-    - [SG Ready](technical/sgready)
-    - [Sunspec](technical/sunspec)
+    - [Modbus](6_technical/modbus)
+    - [SG Ready](6_technical/sgready)
+    - [Sunspec](6_technical/sunspec)

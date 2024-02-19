@@ -17,7 +17,7 @@ Mark code with grey rectangle
 !> Warning
 
 <div align=center>
-<img width="60%" src="./img/MID/MID.webp"/>
+<img width="60%" src="./_img/1_cabling/MID.webp"/>
 </div>
 
 *aaaa* **bbb**
