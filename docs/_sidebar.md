@@ -7,10 +7,13 @@
 - [Heat Pump](hp/overview)
 - [Solar Inverters](pv/overview)
     - [Sunspec Inverters](pv/sunspec)
+- Temperature Sensors
+    - [Shelly H&T](temp/shelly)
+    - [PT1000](temp/pt1000)
 - [Controller Provisioning](provisioning/overview)
     - [SD Card](provisioning/sdcard)
     - [Building Description](provisioning/bd)
-- Technical information
+- Protocols information
     - [Modbus](technical/modbus)
     - [SG Ready](technical/sgready)
     - [Sunspec](technical/sunspec)

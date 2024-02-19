@@ -1,6 +1,6 @@
 # Heat Pumps
 
-For now, only heat pump control via [SG-Ready](technical/sgready) is supported. The only exception is for Stiebel Eltron heat pumps, if an [ISG-Web](https://www.stiebel-eltron.ch/de/home/produkte-loesungen/erneuerbare_energien/regelung_energiemanagement/isg-web/isg-web.html) module is installed.
+For now, only heat pump control via [SG-Ready](technical/sgready) is supported. The only exception is for Stiebel Eltron heat pumps, with an [ISG-Web](https://www.stiebel-eltron.ch/de/home/produkte-loesungen/erneuerbare_energien/regelung_energiemanagement/isg-web/isg-web.html) module installed.
 
 ## Manufacturer documentation
 

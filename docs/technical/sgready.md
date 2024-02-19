@@ -18,4 +18,6 @@ SG-Ready supports four operating modes for heat pumps, communicated through bina
 4. **Ordered operation (1:1):** Heat pump is ordered to run, with two adjustable variants supporting different tariff and utilization models.
 
 ## In practice
-SG-Ready interfaces are generally controlled using 2 relays.
+SG-Ready interfaces are generally controlled using 2 relays. 
+
+>If a 2 relays SG-Ready interface is not availabe, heatpumps can always be controlled with the 1 relay (enable/disable) interface.
