@@ -1,0 +1,3 @@
+# Wago MID
+
+Comment configurer le MID, slaveID, ...

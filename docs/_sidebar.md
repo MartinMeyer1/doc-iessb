@@ -5,6 +5,7 @@
     - [Heat Pump](1_cabling/hp)
     - [Wago MID](1_cabling/wagomid)
 - Appliances Configuration
+    - [Wago MID](2_app_conf/wagomid)
     - [Shelly H&T](2_app_conf/shelly)
 - CC100 Setup
     - [Deployment](3_cc100/deployment)
