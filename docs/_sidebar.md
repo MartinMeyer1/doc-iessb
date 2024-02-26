@@ -4,6 +4,7 @@
     - [PT1000](1_cabling/pt1000)
     - [Heat Pump](1_cabling/hp)
     - [Wago MID](1_cabling/wagomid)
+	- [Wago CT](1_cabling/ct)
 - Appliances Configuration
     - [Wago MID](2_app_conf/wagomid)
     - [Shelly H&T](2_app_conf/shelly)
