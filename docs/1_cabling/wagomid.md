@@ -1,34 +1,20 @@
-# Wago MID
+# WAGO Energy Meter MID
 
-Very good explanation about the wago MID
+Crucial for trimming costs, comprehensive energy measurement is necessary to optimize energy consumption.
 
-> Important note about the MID
+> There are several types of MID meter: direct meters and meters with transformers.
 
-==very important words==
-
-```
-Mark code with grey rectangle
-```
-
---------------------
-
-`Highlight special explanation`
-
-!> Warning
+| <img width="40%" src="./_img/1_cabling/MID.webp"/>  | <img width="40%" src="./_img/1_cabling/MID2.webp"/> |
+| ----------- | ----------- |
+| <div align=center>  [879-3021](https://www.wago.com/ch-fr/gestion-de-l-%C3%A9nergie-powered-by-wago-transformateur-d-intensit%C3%A9-et-prises-de-tension/compteur-d-%C3%A9nergie-mid/p/879-3021) </div>     |  <div align=center>  [879-3040](https://www.wago.com/ch-fr/gestion-de-l-%C3%A9nergie-powered-by-wago-transformateur-d-intensit%C3%A9-et-prises-de-tension/compteur-d-%C3%A9nergie-mid/p/879-3040) </div>  |
+| <div align=center> for direct connection </div>   | <div align=center> for transformer connection </div> |
 
 <div align=center>
-<img width="60%" src="./_img/1_cabling/MID.webp"/>
+<img width="100%" src="./_img/1_cabling/_Principe/Principe_Electro2.png"/>
 </div>
 
-*aaaa* **bbb**
 
-* Topic
-    * Subtopic
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 
-[Wago](https://www.wago.com)
+[WAGO](https://www.wago.com)
 

@@ -1,5 +1,5 @@
 # WAGO Current Transformer
-Split-core current transformer
+Split-core current transformer 855-3001/0060-0003
 
 
 <img width="50%" src="./_img/1_cabling/_TI/TI.webp"/>
