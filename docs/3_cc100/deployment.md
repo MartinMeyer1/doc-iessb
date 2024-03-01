@@ -4,7 +4,7 @@
 
 1.	Insert Innosuisse SD-card
 <div align=center>
-<img width="400" src="./_img/3_cc100/sd.PNG"/>
+<img width="400" src="./_img/3_cc100/SD.PNG"/>
 </div>
 
 2.	Power on the CC100 Via the circuit-breaker for the Innosuisse section. (24V on Us+, Uout+ and Uin+ , 0V on GND)
