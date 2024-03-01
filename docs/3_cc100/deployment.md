@@ -1,52 +1,71 @@
 # Deployment
 
-This guides you through the deployment of the CoEMS software stack on a new WAGO CC100 controller.
+## Prepare the controller
 
+1.	Insert Innosuisse SD-card
 <div align=center>
-<img width="400" src="./_img/3_cc100/wagocc100.png"/>
+<img width="400" src="./_img/3_cc100/sd.PNG"/>
 </div>
 
-## Prepare your Computer
-
-You need a recent **Web Browser** and an **SSH client** installed on your PC. If you use anything except Windows, you are lucky, you already have everything needed. If you are a Windows user, you need to install an SSH client; we recommend installing [PuTTY](https://www.putty.org).
-
-## Prepare CC100 controller
-
-### Update Firmware
-
-Make sure you have the firmware version **04.03.03(25)** installed on your CC100 controller. You can download the latest firmware from the [WAGO website](https://downloadcenter.wago.com/software/details/ljnx3u8jf07z82f84ji).
-
-### Configure Networking
-
-Your controller needs to be connected to the internet. We refer to the documentation of the WAGO CC100 controller to configure the network.
-
-### Disable Firewall
-
-Currently, Docker network connectivity does not work correctly when the firewall is enabled on the CC100. As the controller is running behind a NAT anyway, it is completely safe to disable the firewall completely:
-
+2.	Power on the CC100 Via the circuit-breaker for the Innosuisse section. (24V on Us+, Uout+ and Uin+ , 0V on GND)
 <div align=center>
-<img width="800" src="./_img/3_cc100/cc100-firewall.png"/>
+<img width="400" src="./_img/3_cc100/supply.png"/>
+<img width="200" src="./_img/3_cc100/circuit_breaker.png"/>
 </div>
-
-### Enable IP forwarding
-
-You need to enable IPv4 packet forwarding on the system so Docker containers can communicate with devices outside the CC100 controller:
-
+3.	Plug your laptop directly into the CC100 Port X1
 <div align=center>
-<img width="800" src="./_img/3_cc100/cc-100-routing.png"/>
+<img width="400" src="./_img/3_cc100/cc100-side.jpg"/>
 </div>
-
-### Enable Docker
-
-Docker is already installed on firmware 25 and later, so you just need to ensure that Docker is enabled:
-
+4.	Go in WBM via an Internet Web-browser with 192.168.1.17
+5.	Connect with default credentials*
+Login : admin
+Password : wago (IESSB for Pilots Sites)
+6.	Go under configuration –> Administration -> Create image
 <div align=center>
-<img width="800" src="./_img/3_cc100/cc100-docker-service.png"/>
+<img width="700" src="./_img/3_cc100/create-image.png"/>
 </div>
+7.	After installing power off CC100
+8.	Remove SD-Card
+9.	Put an empty SD-Card
 
-### Deploy the software
+## Configure the controller
 
-You can deploy the software on the CC100. Open an SSH connection to the CC100 and run the following command:
+10.	Power on the CC100
 
-```bash
-bash -c "$(curl https://wago:<PASSWORD>@api.≤BASE URL>}/v1/endpoint/<ENDPOINT ID>/deploy-cc100.sh)"
+11.	Plug internet (router) on X2
+12.	Go in WBM via an Internet Web-browser with 192.168.1.17
+13.	Connect with default credentials
+14.	Change Password, (to be defined)  in Configuration -> User 
+<div align=center>
+<img width="700" src="./_img/3_cc100/password.png"/>
+</div>
+15.	WCP parameters
+
+## Commission the Innosuisse solution
+
+16.	Open an SSH (Putty)
+
+17.	Enter default IP adress (192.168.1.17)
+<div align=center>
+<img width="400" src="./_img/3_cc100/putty.png"/>
+</div>
+18.	Enter credentials root, wago
+<div align=center>
+<img width="700" src="./_img/3_cc100/ssh-credential.png"/>
+</div>
+19.	Change Password, (to be defined)
+20.	Test if you have internet (ping google.com)
+<div align=center>
+<img width="700" src="./_img/3_cc100/ssh-test-internet.png"/>
+</div>
+21.	With a web brower connect to the cloud https://www.wago.hevs.ch/<br>
+Login : wago<br>
+Password : *The password wago has provided you*
+22.	Add new endpoint
+<div align=center>
+<img width="800" src="./_img/3_cc100/add-endpoint.png"/>
+</div>
+23.	Configure the endpoint according to the documentation available when the endpoint was created.**
+24.	Check if your controller is connected refered by the hostname**
+25.	Go into your endpoint project
+26.	Configure the endpoint description
