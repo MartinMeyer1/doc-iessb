@@ -6,15 +6,15 @@ Split-core current transformer 855-3001/0060-0003
 </div>
 
 <div align=center>
-<img width="100%" src="./_img/1_cabling/_Principe/Principe_Electro2.png"/>
+<img width="100%" src="./_img/1_cabling/_Principe/Principe_Electro2.PNG"/>
 </div>
 
 <div align=center>
-<img width="100%" src="./_img/1_cabling/_TI/TI_FR.png"/>
+<img width="100%" src="./_img/1_cabling/_TI/TI_FR.PNG"/>
 </div>
 
 <div align=center>
-<img width="100%" src="./_img/1_cabling/_TI/TI_DE.png"/>
+<img width="100%" src="./_img/1_cabling/_TI/TI_DE.PNG"/>
 </div>
 
 !> Take note of the direction arrow on the CT when fitting.
