@@ -3,11 +3,11 @@
     - [Electrical Diagram](1_cabling/diagram)
     - [PT1000](1_cabling/pt1000)
     - [Heat Pump](1_cabling/hp)
-    - [Wago MID](1_cabling/wagomid)
-	- [Wago CT](1_cabling/ct)
+    - [WAGO MID Energy Meter](1_cabling/wagomid)
+	- [WAGO Current Transformer](1_cabling/ct)
 - Appliances Configuration
-    - [Wago MID](2_app_conf/wagomid)
-    - [Shelly H&T](2_app_conf/shelly)
+    - [WAGO MID Energy Meter](2_app_conf/wagomid)
+    - [Shelly H&T Sensor](2_app_conf/shelly)
 - CC100 Setup
     - [Deployment](3_cc100/deployment)
 - Site Configuration
