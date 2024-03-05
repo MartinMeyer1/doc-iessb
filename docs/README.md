@@ -8,10 +8,12 @@ Welcome to the IESSB comissioning documentation!
 <img width="500" src="./_img/intro/steps-overview.drawio.svg"/>
 </div>
 
-#### Cabling
-#### Network configuration
-#### Commissioning
-#### Validation
+#### [Cabling](1_cabling/diagram)
+
+#### [Appliances configuration](2_app_conf/wagomid)
+
+#### [Controller Setup](3_cc100/deployment)
+
+#### [Validation](5_Validation/validation)
 
 
-<a href="./_documents/test.pdf" download="test-document.pdf">Download PDF</a>
