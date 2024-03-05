@@ -1,2 +1,0 @@
-# Shelly H&T Sensor
-

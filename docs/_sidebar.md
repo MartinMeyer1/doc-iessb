@@ -5,7 +5,6 @@
     - [Heat Pump](1_installation/hp)
     - [WAGO MID Energy Meter](1_installation/wagomid)
 	- [WAGO Current Transformer](1_installation/ct)
-    - [Shelly H&T Sensor](1_installation/shelly)
 - [**Appliances Configuration**](2_app_conf/app_conf)
     - [WAGO MID Energy Meter](2_app_conf/wagomid)
     - [Shelly H&T Sensor](2_app_conf/shelly)
