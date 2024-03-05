@@ -14,6 +14,8 @@
 
 ## Modbus Configuration
 
+Communication between MID meters and the CC100 is via [Modbus RTU](6_technical/modbus).
+
 | Modbus Specifications      | Configuration |
 | ----------- | ----------- |
 | Baud rate      | 9600 |
@@ -30,3 +32,4 @@
 <div align=center>
 <img width="1000" src="./_img/2_app_conf/_MID/CT_Ratio.png"/>
 </div>
+
