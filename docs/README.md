@@ -1,4 +1,4 @@
-# IESSB comissioning documentation
+# IESSB commissioning documentation
 
 Welcome to the IESSB commissioning documentation!
 ## Project overview
