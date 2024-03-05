@@ -11,7 +11,7 @@
 - CC100 Setup
     - [Deployment](3_cc100/deployment)
 - Site Configuration
-- Validation
+- [Validation](5_Validation/validation)
 - Protocols information
     - [Modbus](6_technical/modbus)
     - [SG Ready](6_technical/sgready)
