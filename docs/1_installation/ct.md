@@ -18,7 +18,7 @@ WAGO's compact split-core current transformers are ideal for retrofitting existi
 <img width="1000" src="./_img/1_cabling/_TI/TI_DE.PNG"/>
 </div>
 
-<a href="./_documents/_CT/Operating_and_Assembly_Instruction.pdf" download="Operating_and_Assembly_Instruction.pdf">Operating_and_Assembly_Instruction<a>
+<a href="./_documents/_CT/Operating_and_Assembly_Instruction.pdf" download="Operating_and_Assembly_Instruction.pdf">Operating_and_Assembly_Instruction</a>
 
 !> Take note of the direction arrow on the CT when fitting.
 
@@ -32,6 +32,5 @@ WAGO's compact split-core current transformers are ideal for retrofitting existi
 <img width="600" src="./_img/1_cabling/_TI/Color.png"/>
 </div>
 
-
-[WAGO Website](https://www.wago.com/ch-fr/gestion-de-l-%C3%A9nergie-powered-by-wago-transformateur-d-intensit%C3%A9-et-prises-de-tension/transformateurs-d-intensit%C3%A9-non-intrusifs/p/855-3001_060-003)
+> For more information about the Wago current transformers, please visit the [WAGO website](https://www.wago.com/ch-fr/gestion-de-l-%C3%A9nergie-powered-by-wago-transformateur-d-intensit%C3%A9-et-prises-de-tension/transformateurs-d-intensit%C3%A9-non-intrusifs/p/855-3001_060-003).
 

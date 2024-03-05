@@ -1,18 +1,19 @@
-- [Home](/)
-- Cabling
-    - [Electrical Diagram](1_cabling/diagram)
-    - [PT1000](1_cabling/pt1000)
-    - [Heat Pump](1_cabling/hp)
-    - [WAGO MID Energy Meter](1_cabling/wagomid)
-	- [WAGO Current Transformer](1_cabling/ct)
-- Appliances Configuration
+- [**Home**](/)
+- [**Installation**](1_installation/installation)
+    - [Electrical Diagram](1_installation/diagram)
+    - [PT1000](1_installation/pt1000)
+    - [Heat Pump](1_installation/hp)
+    - [WAGO MID Energy Meter](1_installation/wagomid)
+	- [WAGO Current Transformer](1_installation/ct)
+    - [Shelly H&T Sensor](1_installation/shelly)
+- [**Appliances Configuration**](2_app_conf/app_conf)
     - [WAGO MID Energy Meter](2_app_conf/wagomid)
     - [Shelly H&T Sensor](2_app_conf/shelly)
-- CC100 Setup
-    - [Deployment](3_cc100/deployment)
-- Site Configuration
-- [Validation](5_Validation/validation)
-- Protocols information
+- [**Contoller Setup**](3_controller_setup/controller_setup)
+    - [CC100](3_controller_setup/cc100)
+- [**Site Configuration**](4_conf/conf)
+- [**Validation**](5_validation/validation)
+- [**Technical information**](6_technical/technical)
     - [Modbus](6_technical/modbus)
     - [SG Ready](6_technical/sgready)
     - [Sunspec](6_technical/sunspec)

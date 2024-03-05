@@ -1,4 +1,4 @@
-# Shelly H&T
+# Shelly H&T Sensor
 
 1. Power up the Shelly sensor using either the battery or the micro USB base, cable, and charger. (The LED will flash in red).
 
@@ -25,7 +25,7 @@
 7. Log in to the Shelly Cloud from the application.<br>
 | Username | Password |
 |----------|----------|
-| josselin.corbaz@wago.com     | ShellyIESSB     |
+| josselin.corbaz@wago.com     | *Password is provided by WAGO*     |
 
 8. Add the device to the correct "Room."
 

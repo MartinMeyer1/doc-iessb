@@ -16,5 +16,5 @@ Crucial for trimming costs, comprehensive energy measurement is necessary to opt
 
 
 
-[WAGO](https://www.wago.com)
+> For more information about the Wago energy meter MID, please visit the [WAGO website](https://www.wago.com).
 
