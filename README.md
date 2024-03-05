@@ -1,4 +1,4 @@
-# IESSB comissioning documentation
+# IESSB commissioning documentation
 
 This documentation was generated using [docsify](https://docsify.js.org/#/).
 
