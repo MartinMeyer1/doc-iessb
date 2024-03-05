@@ -1,5 +1,13 @@
 # Shelly H&T Sensor
 
+Shelly H&T is a Wi-Fi humidity and temperature sensor. Shelly H&T features built-in modules for both humidity and temperature. It is relatively compact to seamlessly blend into any interior, allowing you to maintain an optimal temperature and a healthy humidity level in your home.
+
+<div align=center>
+   <img width="300" src="./_img/2_app_conf/shelly/shelly.jpg"/>
+</div>
+
+## Configuration
+
 1. Power up the Shelly sensor using either the battery or the micro USB base, cable, and charger. (The LED will flash in red).
 
 2. Connect your computer or smartphone to the Shelly Sensor's Wi-Fi network.
@@ -40,3 +48,4 @@
    </div>
 
 10. Configure the Wi-Fi settings and scan the network to add the sensor.
+11. Place the Sensor in a reference room, at about 1.5 meter from the floor, in a well ventilated area.
