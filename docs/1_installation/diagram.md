@@ -27,3 +27,5 @@
    <div align=center>
    <img width="1000" src="./_img/1_cabling/_Box/Box_Page2.PNG"/>
    </div>
+   
+   <a href="./_documents/Wago_Innosuisse _Schéma_V4.pdf" download="Wago_Innosuisse _Schéma.pdf">Wago_Innosuisse _Schéma<a>
