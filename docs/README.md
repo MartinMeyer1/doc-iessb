@@ -1,7 +1,6 @@
 # IESSB commissioning documentation
 
 Welcome to the IESSB commissioning documentation!
-The pdf generated version of this documentation is available <a href="../pdf/DOCUMENTATION.pdf" download="wago-IESSB-documentation.pdf">here<a>.
 ## Project overview
 
 The IESSB project (Industrialisation of energy services for small buildings) will develop an energy management ecosystem promoting the large-scale deployment 

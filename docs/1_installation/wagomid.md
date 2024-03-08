@@ -10,7 +10,7 @@ Crucial for trimming costs, comprehensive energy measurement is necessary to opt
 | <div align=center> for direct connection </div>   | <div align=center> for transformer connection </div> |
 
 <div align=center>
-<img width="1000" src="../_img/1_cabling/_Principe/Principe_Electro2.PNG"/>
+<img width="1000" src="./_img/1_cabling/_Principe/Principe_Electro2.PNG"/>
 </div>
 
 

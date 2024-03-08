@@ -5,7 +5,7 @@
 Modbus is a widely used communication protocol in industrial automation, facilitating data exchange between electronic devices. It was developed in the late 1970s and has become a standard for connecting and controlling equipment in various industries.
 
 <div align=center>
-<img width="18%" src="../_img/6_technical/modbus.jpg"/>
+<img width="18%" src="./_img/6_technical/modbus.jpg"/>
 </div>
 
 ## Modbus TCP

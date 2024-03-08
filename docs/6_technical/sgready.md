@@ -5,7 +5,7 @@
 SG-Ready is a certification label introduced in 2012 by the German heat pump association (Bundesverband Wärmepumpe, BWP) in collaboration with heat pump manufacturers. This label certifies that a heat pump or related management technology can respond to specific external control signals, aiming to promote the external control of heat pumps for grid support and cost-effectiveness.
 
 <div align=center>
-<img width="10%" src="../_img/6_technical/sgready.jpg"/>
+<img width="10%" src="./_img/6_technical/sgready.jpg"/>
 </div>
 
 
