@@ -23,7 +23,7 @@ WAGO's compact split-core current transformers are ideal for retrofitting existi
 !> Take note of the direction arrow on the CT when fitting.
 
 <div align=center>
-<img width="200" src="./_img/1_cabling/_TI/TI_direction.png"/>
+<img width="600" src="./_img/1_cabling/_TI/TI_direction.png"/>
 </div>
 
 !> Connect the CT in the correct direction on the MID meter, brown wire = S1, blue wire = S2.
