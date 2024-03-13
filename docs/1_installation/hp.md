@@ -41,8 +41,19 @@ The electricity supplier's load-shedding relay is wired to a CC100 input via a r
 We therefore use two relays controlled by the CC100 outputs.
 
 <div align=center>
-<img width="900" src="./_img/1_cabling/_HP_Control/SG_R.PNG"/>
+<img width="500" src="./_img/1_cabling/_HP_Control/SG_R.PNG"/>
 </div>
+
+| <div align=center> Mode </div>| SG-1 </div>| SG-2 </div>|
+| ----------- | ----------- | ----------- |
+| <div align=center> Normal operation </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NO.PNG"/> </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NO.PNG"/> </div>|
+| <div align=center> Stop operation </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NO.PNG"/> </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NC.PNG"/> </div>|
+| <div align=center> Comfort mode </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NC.PNG"/> </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NO.PNG"/> </div>|
+| <div align=center> Boost mode </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NC.PNG"/> </div>| <div align=center> <img width="40%" src="./_img/1_cabling/_HP_Control/NC.PNG"/> </div>|>
+
+
+
+
 
 <a href="./_documents/_HP_Control/SchemaDePrincipeSGready0TC_SGr-2R.pdf" download="SchemaDePrincipeSGready0TC_SGr-2R.pdf">SchemaDePrincipeSGready0TC_SGr-2R<a>
 
