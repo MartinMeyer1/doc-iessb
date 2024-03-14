@@ -19,6 +19,13 @@ The project consists of three main parts:
 
 - **Applications**: The applications are the services that are deployed in the ecosystem, either in the cloud, local on the endpoint or on both. They provide
   services using the device abstractions provided by the endpoint/cloud.
+<br>
+<br>
+<div align=center>
+<img width="800" src="./_img/intro/project-overview.drawio.svg"/>
+</div>
+<br>
+<br>
 
 ## Documentation structure
 The documentation is organized in 5 main steps:
@@ -35,7 +42,7 @@ The documentation is organized in 5 main steps:
 
 | [Installation](1_installation/installation) | [Appliances configuration](2_app_conf/app_conf) | [Controller Setup](3_controller_setup/controller_setup) | [Site Configuration](4_conf/conf) | [Validation](5_validation/validation) |
 | ----- | ----- | ----- | ----- | ----- |
-| - Cabling  <br> - Hardware installation <br> - Gather appliances' information | - How to configure various appliances<br>- How to set slave id<br>- ...                           | - How to configure the controller's firmware<br>- How to commission the controller                  | - How to configure the endpoint description<br>- How to commission and configure applications                     | - Validate appliances configuration<br>- Check the values are coherent          |
+| - Cabling  <br> - Hardware installation <br> - Gather appliances information | - How to configure various appliances<br>- How to set slave id<br>- ...                           | - How to configure the controller's firmware<br>- How to commission the controller                  | - How to configure the endpoint description<br>- How to commission and configure applications                     | - Validate appliances configuration<br>- Check the values are coherent          |
 
 <div align=center>
 <img width="800" src="./_img/intro/Topology.PNG"/>

@@ -32,7 +32,7 @@ WAGO's compact split-core current transformers are ideal for retrofitting existi
 <img width="600" src="./_img/1_cabling/_TI/Color.png"/>
 </div>
 
-Energy meter (MID) for transformer connection, Wiring Diagram 
+Energy meter (MID) for transformer connection, wiring diagram.
 
 > For more information about the Wago current transformers, please visit the [WAGO website](https://www.wago.com/ch-fr/gestion-de-l-%C3%A9nergie-powered-by-wago-transformateur-d-intensit%C3%A9-et-prises-de-tension/transformateurs-d-intensit%C3%A9-non-intrusifs/p/855-3001_060-003).
 
