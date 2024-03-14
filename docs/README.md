@@ -45,5 +45,5 @@ The documentation is organized in 5 main steps:
 | - Cabling  <br> - Hardware installation <br> - Gather appliances information | - How to configure various appliances<br>- How to set slave id<br>- ...                           | - How to configure the controller's firmware<br>- How to commission the controller                  | - How to configure the endpoint description<br>- How to commission and configure applications                     | - Validate appliances configuration<br>- Check the values are coherent          |
 
 <div align=center>
-<img width="800" src="./_img/intro/Topology.PNG"/>
+<img width="800" src="./_img/intro/Topology.png"/>
 </div>
