@@ -8,6 +8,7 @@
 - [**Appliances Configuration**](2_app_conf/app_conf)
     - [WAGO MID Energy Meter](2_app_conf/wagomid)
     - [Shelly H&T Sensor](2_app_conf/shelly)
+    - [Inverters](2_app_conf/inverter)
 - [**Contoller Setup**](3_controller_setup/controller_setup)
     - [CC100](3_controller_setup/cc100)
 - [**Site Configuration**](4_conf/conf)
