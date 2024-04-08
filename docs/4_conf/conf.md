@@ -1,3 +1,77 @@
 # Site Configuration
 
-!> Site configuration documentation is not yet available. The WAGO teams will configure the site manually.
+## Concepts
+
+#### HAL
+**HAL** stands for "Hardware Abstraction Layer". It needs to be configured only when using serial protocols like modbus rtu or dsmr-p1.
+
+#### Process
+A set of appliances working together is a process. A good example of a process would be "heating", which would include an appliance for measuring heat pump consumption, as well as an appliance for controlling the heat pump via SG-Ready.
+
+#### Appliance
+An appliance is a real world device with which the controller can read or write datapoints. The controller can communicate with the appliances via various protocols, as Modbus rtu/tcp, Digital and Analog IOs, HTTP, ... The controller must be configured correctly to access the appliances.
+
+## How to configure
+
+#### Building Metadata
+Fill the required metadata in the **Building** tab. Heated surface is in m2, max amps is the max current in A.
+<div align=center>
+<img width="400" src="./_img/4_conf/building-metadata.png"/>
+</div>
+
+You can add additional metadata by giving a name the value you want, and clicking **Add**.
+
+#### Live IOs
+When clicking on the **Appliances** tab, a live view of the IOs will show up:
+<div align=center>
+<img width="600" src="./_img/4_conf/live-io.png"/>
+</div>
+This component is interactive. Input can be read, and outputs can be set in order to test the hardware installation if needed.
+
+#### HAL
+Click on the **Configure HAL** button. This form will show up:
+<div align=center>
+<img width="600" src="./_img/4_conf/hal.png"/>
+</div>
+
+2 different serial protocol can be choosed:
+- **P1**: choose P1 if you want to connect a dsmr-p1 smartmeter. There's no need to enter other HAL parameters when using P1.
+- **Modbus**: choose modbus if you want to add a modbus device. Other modbus parameters needs to be configured as well.
+
+!> Please ensure that all the modbus rtu slaves that you want to use have the same configuration to avoid compatibility issues.
+
+#### Process
+Click on the **Add Process** button:
+<div align=center>
+<img width="600" src="./_img/4_conf/process.png"/>
+</div>
+
+Enter a process name, and choose a process category. A space reference can be set optionally.
+
+#### Appliances
+Click on the **Add appliance** button:
+<div align=center>
+<img width="600" src="./_img/4_conf/choose-appliance.png"/>
+</div>
+
+Choose an appliance in the list, and press **Next**.
+
+<div align=center>
+<img width="600" src="./_img/4_conf/conf-appliance.png"/>
+</div>
+
+Enter an appliance name, and fill the configuration fields.
+
+#### Verification
+
+<div align=center>
+<img width="600" src="./_img/4_conf/verification.png"/>
+</div>
+
+!> This feature is not yet implemented. Click **Validate**.
+
+#### Live values
+You can now check the live values by clicking on the appliance you want, and selecting an interface:
+<div align=center>
+<img width="800" src="./_img/4_conf/live-values.png"/>
+</div>
