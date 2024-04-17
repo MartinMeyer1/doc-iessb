@@ -1,5 +1,7 @@
 # Inverter
 
+!> Inverters must have a static ip address!
+
 ## Solaredge
 
 All recent Solaredge inverters are Sunspec compatible.
