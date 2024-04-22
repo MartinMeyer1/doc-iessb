@@ -21,7 +21,7 @@ Fill the required metadata in the **Building** tab. Heated surface is in m2, max
 <img width="400" src="./_img/4_conf/building-metadata.png"/>
 </div>
 
-You can add additional metadata by giving a name the value you want, and clicking **Add**.
+You can add additional metadata by giving a name and the value you want, and clicking **Add**.
 
 #### Live IOs
 
@@ -67,16 +67,31 @@ Choose an appliance in the list, and press **Next**.
 
 Enter an appliance name, and fill the configuration fields.
 
-#### Verification
 
+This view will appear during deployment process (it can take up to 1-2 minute):
 <div align=center>
-<img width="600" src="./_img/4_conf/verification.png"/>
+<img width="1000" src="./_img/4_conf/deploy.png"/>
 </div>
 
-!> This feature is not yet implemented. Click **Validate**.
+#### Verification
+
+Once the driver is deployed, live values can be checked to ensure that it is correctly configured:
+
+<div align=center>
+<img width="1000" src="./_img/4_conf/deployed.png"/>
+</div>
+
+<br>
+
+<div align=center>
+<img width="1000" src="./_img/4_conf/deployed-values.png"/>
+</div>
+
+
+When configuration is finished, click **validate** and configure next appliances.
 
 #### Live values
-You can now check the live values by clicking on the appliance you want, and selecting an interface:
+After deploying, you can still check the live values by clicking on the appliance you want, and selecting an interface:
 <div align=center>
 <img width="800" src="./_img/4_conf/live-values.png"/>
 </div>
