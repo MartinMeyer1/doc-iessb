@@ -106,19 +106,19 @@ Here is a Wago Energy Meter configuration example:
 <img width="600" src="./_img/4_conf/hal-example.png"/>
 </div>
 
-## Main meter process
+### Main meter process
 
 <div align=center>
 <img width="600" src="./_img/4_conf/process-example.png"/>
 </div>
 
-## Choose the Wago Energy Meter
+### Choose the Wago Energy Meter
 
 <div align=center>
 <img width="600" src="./_img/4_conf/choose-appliance-example.png"/>
 </div>
 
-## Configure the Wago Energy Meter
+### Configure the Wago Energy Meter
 
 - Set the modbus port number to 0.
 - Set the modbus slaveID of the meter.
