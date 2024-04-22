@@ -3,6 +3,28 @@
 Welcome to the Wago Energy Manager installation and commissioning documentation!
 
 The pdf generated version of this documentation is available <a href="./pdf/DOCUMENTATION.pdf" download="WEM_documenation.pdf">here<a>.
+
+## Documentation structure
+The documentation is organized in 5 main steps:
+<br>
+<br>
+<br>
+<div align=center>
+<img width="900" src="./_img/intro/steps-overview.drawio.svg"/>
+</div>
+<br>
+<br>
+<br>
+
+
+| [Installation](1_installation/installation) | [Appliances configuration](2_app_conf/app_conf) | [Controller Setup](3_controller_setup/controller_setup) | [Site Configuration](4_conf/conf) | [Validation](5_validation/validation) |
+| ----- | ----- | ----- | ----- | ----- |
+| - Cabling  <br> - Hardware installation <br> - Gather appliances information | - How to configure various appliances<br>- How to set slave id<br>- ...                           | - How to configure the controller's firmware<br>- How to commission the controller                  | - How to configure the endpoint description<br>- How to commission and configure applications                     | - Validate appliances configuration<br>- Check the values are coherent          |
+
+<div align=center>
+<img width="800" src="./_img/intro/Topology-compressed.png"/>
+</div>
+
 ## Project overview
 
 The WEM project (Wago Energy Manager) will develop an energy management ecosystem promoting the large-scale deployment 
@@ -26,24 +48,3 @@ The project consists of three main parts:
 </div>
 <br>
 <br>
-
-## Documentation structure
-The documentation is organized in 5 main steps:
-<br>
-<br>
-<br>
-<div align=center>
-<img width="900" src="./_img/intro/steps-overview.drawio.svg"/>
-</div>
-<br>
-<br>
-<br>
-
-
-| [Installation](1_installation/installation) | [Appliances configuration](2_app_conf/app_conf) | [Controller Setup](3_controller_setup/controller_setup) | [Site Configuration](4_conf/conf) | [Validation](5_validation/validation) |
-| ----- | ----- | ----- | ----- | ----- |
-| - Cabling  <br> - Hardware installation <br> - Gather appliances information | - How to configure various appliances<br>- How to set slave id<br>- ...                           | - How to configure the controller's firmware<br>- How to commission the controller                  | - How to configure the endpoint description<br>- How to commission and configure applications                     | - Validate appliances configuration<br>- Check the values are coherent          |
-
-<div align=center>
-<img width="800" src="./_img/intro/Topology-compressed.png"/>
-</div>

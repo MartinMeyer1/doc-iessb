@@ -1,5 +1,7 @@
 # Site Configuration
 
+The section describes how to use the site configurator. A concrete configuration example of a Wago Energy Meter is available [here.](4_conf/conf?id=wago-energy-meter-example)
+
 ## Concepts
 
 #### HAL
@@ -22,6 +24,9 @@ Fill the required metadata in the **Building** tab. Heated surface is in m2, max
 You can add additional metadata by giving a name the value you want, and clicking **Add**.
 
 #### Live IOs
+
+!> **This feature is not yet implemented.**
+
 When clicking on the **Appliances** tab, a live view of the IOs will show up:
 <div align=center>
 <img width="600" src="./_img/4_conf/live-io.png"/>
@@ -74,4 +79,35 @@ Enter an appliance name, and fill the configuration fields.
 You can now check the live values by clicking on the appliance you want, and selecting an interface:
 <div align=center>
 <img width="800" src="./_img/4_conf/live-values.png"/>
+</div>
+
+## Wago Energy Meter example
+
+Here is a Wago Energy Meter configuration example:
+
+### Hal configuration
+
+<div align=center>
+<img width="600" src="./_img/4_conf/hal-example.png"/>
+</div>
+
+## Main meter process
+
+<div align=center>
+<img width="600" src="./_img/4_conf/process-example.png"/>
+</div>
+
+## Choose the Wago Energy Meter
+
+<div align=center>
+<img width="600" src="./_img/4_conf/choose-appliance-example.png"/>
+</div>
+
+## Configure the Wago Energy Meter
+
+- Set the modbus port number to 0.
+- Set the modbus slaveID of the meter.
+- Set *Inverse Current Direction* to *true* if the TI are mounted reversed.
+<div align=center>
+<img width="600" src="./_img/4_conf/conf-appliance-example.png"/>
 </div>
