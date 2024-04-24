@@ -4,6 +4,8 @@ Welcome to the Wago Energy Manager installation and commissioning documentation!
 
 The pdf generated version of this documentation is available <a href="./pdf/DOCUMENTATION.pdf" download="WEM_documenation.pdf">here<a>.
 
+[Quick Configuration](4_conf/conf) 
+
 ## Documentation structure
 The documentation is organized in 5 main steps:
 <br>

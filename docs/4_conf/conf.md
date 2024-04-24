@@ -126,3 +126,26 @@ Here is a Wago Energy Meter configuration example:
 <div align=center>
 <img width="600" src="./_img/4_conf/conf-appliance-example.png"/>
 </div>
+
+## Standard Modbus Configuration
+
+Communication between MID meters and the CC100 is via [Modbus RTU](6_technical/modbus).
+
+Main -> Main introduction
+
+PV -> Photovoltaic inverter
+
+HP -> Heat pump
+
+EV -> Vehicle charging station 
+
+| Modbus Specifications      | Configuration |
+| ----------- | ----------- |
+| Serial Protocol   | MODBUS  |
+| Modbus mode   | RTU  |
+| Parity   | None  |
+| Baud rate      | 9600 |
+| Modbus data bits   | 8  |
+| Modbus stop bits   | 1  |
+| Modbus Timeout   | 2000  |
+| Address   | Main 2U1 -> Modbus ID = 1  <br><br> PV 2U2 -> Modbus ID = 2  <br><br> HP 2U3 -> Modbus ID = 3  <br><br> EV 2U4 -> Modbus ID = 4 |
