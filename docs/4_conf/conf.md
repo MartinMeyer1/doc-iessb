@@ -13,15 +13,29 @@ A set of appliances working together is a process. A good example of a process w
 #### Appliance
 An appliance is a real world device with which the controller can read or write datapoints. The controller can communicate with the appliances via various protocols, as Modbus rtu/tcp, Digital and Analog IOs, HTTP, ... The controller must be configured correctly to access the appliances.
 
+## Interface overview
+<div align=center>
+<img width="600" src="./_img/4_conf/overview.png"/>
+</div>
+
+The numbers in red are the button to:
+1. Enter buiding metadata.
+2. Enter HAL configuration.
+3. Add a process.
+4. Add an appliance in the process.
+
 ## How to configure
 
 #### Building Metadata
-Fill the required metadata in the **Building** tab. Heated surface is in m2, max amps is the max current in A.
+Metadata can be optionally set in the **Building** tab. *Heated Surface* is in **m2** and *Max Amps* is in **A**.
 <div align=center>
 <img width="400" src="./_img/4_conf/building-metadata.png"/>
 </div>
 
-You can add additional metadata by giving a name and the value you want, and clicking **Add**.
+You can add additional metadata by giving a name and the value you want, and clicking **Add**:
+<div align=center>
+<img width="400" src="./_img/4_conf/building-metadata-example.png"/>
+</div>
 
 #### Live IOs
 
@@ -51,7 +65,7 @@ Click on the **Add Process** button:
 <img width="600" src="./_img/4_conf/process.png"/>
 </div>
 
-Enter a process name, and choose a process category. A space reference can be set optionally.
+Enter a process name, choose a process category, and a sub-category. A space reference and additional information can be set optionally.
 
 #### Appliances
 Click on the **Add appliance** button:
@@ -102,23 +116,25 @@ Here is a Wago Energy Meter configuration example:
 
 ### Hal configuration
 
+The standard HAL configuration:
 <div align=center>
 <img width="600" src="./_img/4_conf/hal-example.png"/>
 </div>
 
-### Main meter process
-
+### Process creation
+Create a meter called **Main** with **Grid Connection** category:
 <div align=center>
 <img width="600" src="./_img/4_conf/process-example.png"/>
 </div>
 
-### Choose the Wago Energy Meter
+### Wago Energy Meter selection
 
+Select the **Wago MID Meter**:
 <div align=center>
 <img width="600" src="./_img/4_conf/choose-appliance-example.png"/>
 </div>
 
-### Configure the Wago Energy Meter
+### Wago Energy Meter configuration
 
 - Set the modbus port number to 0.
 - Set the modbus slaveID of the meter.
