@@ -8,7 +8,20 @@ The section describes how to use the site configurator. A concrete configuration
 **HAL** stands for "Hardware Abstraction Layer". It needs to be configured only when using serial protocols like modbus rtu or dsmr-p1.
 
 #### Process
-A set of appliances working together is a process. A good example of a process would be "heating", which would include an appliance for measuring heat pump consumption, as well as an appliance for controlling the heat pump via SG-Ready.
+A set of appliances working together is a process. A good example of a process would be *Heat Pump*, which would include an appliance for measuring heat pump consumption, another appliance for the SGReady control and a heatpump water buffer temperature sensor:
+
+<div align=center>
+<img width="500" src="./_img/4_conf/process-example-hp.png"/>
+</div>
+
+Another example could be 2 solar inverters forming the *Photovoltaic* process:
+
+<div align=center>
+<img width="500" src="./_img/4_conf/process-example-pv.png"/>
+</div>
+
+
+## Interface overview
 
 #### Appliance
 An appliance is a real world device with which the controller can read or write datapoints. The controller can communicate with the appliances via various protocols, as Modbus rtu/tcp, Digital and Analog IOs, HTTP, ... The controller must be configured correctly to access the appliances.
