@@ -50,3 +50,35 @@ The project consists of three main parts:
 </div>
 <br>
 <br>
+
+## Supported appliances
+
+### Meters
+
+- Wago MID Meter
+- ABB B23/B24 Energy Meter
+- [DSMR-P1](6_technical/sunspec) Meters
+
+### Inverters
+
+- Fronius SYMO
+- Fronius GEN24
+- Solaredge SE10K-RWS, SE8K-RWS ,SE7K-RWS ,SE5K-RWS
+- Studer Next3
+- Any [Sunspec](6_technical/sunspec) compliant inverter
+- Any inverter can be metered with a Wago MID
+
+### EV Chargers
+
+- Zaptec Go
+- ABB TERRA 3C
+- KEBA P30
+- EVLINK CORE, PRO, LITE
+- JUICE CHARGER me 3
+- Any OCPP 1.6J EV Charger
+
+### Heatpumps
+
+- Stiebel Eltron WPM, LWZ
+- [SG-Ready](6_technical/sgready) compatible heatpumps
+- Any heatpump can be controlled by 1 or 2 relays and metered with a Wago MID
