@@ -75,6 +75,7 @@ The project consists of three main parts:
 - KEBA P30
 - EVLINK CORE, PRO, LITE
 - JUICE CHARGER me 3
+- Go-e Charger Gemini
 - Any OCPP 1.6J EV Charger
 
 ### Heatpumps
