@@ -2,6 +2,10 @@
 
 Welcome to the Wago Energy Manager installation and commissioning documentation!
 
+<div align=center>
+<img width="800" src="./_img/intro/HEMS_Illustration_GitHub_01.jpg"/>
+</div>
+
 The pdf generated version of this documentation is available <a href="./pdf/DOCUMENTATION.pdf" download="WEM_documenation.pdf">here<a>.
 
 [Quick Configuration](4_conf/conf) 
@@ -22,10 +26,6 @@ The documentation is organized in 5 main steps:
 | [Installation](1_installation/installation) | [Appliances configuration](2_app_conf/app_conf) | [Controller Setup](3_controller_setup/controller_setup) | [Site Configuration](4_conf/conf) | [Validation](5_validation/validation) |
 | ----- | ----- | ----- | ----- | ----- |
 | - Cabling  <br> - Hardware installation <br> - Gather appliances information | - How to configure various appliances<br>- How to set slave id<br>- ...                           | - How to configure the controller's firmware<br>- How to commission the controller                  | - How to configure the endpoint description<br>- How to commission and configure applications                     | - Validate appliances configuration<br>- Check the values are coherent          |
-
-<div align=center>
-<img width="800" src="./_img/intro/Topology-compressed.png"/>
-</div>
 
 ## Project overview
 
