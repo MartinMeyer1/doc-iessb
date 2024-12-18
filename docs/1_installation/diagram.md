@@ -14,7 +14,7 @@
 # Principe Installation
 
    <div align=center>
-   <img width="1000" src="./_img/1_cabling/_Principe/Principe_Standard.PNG"/>
+   <img width="1000" src="./_img/1_cabling/_Principe/Principe_Standard.jpg"/>
    </div>
 
 ## Electrical Box Diagram
