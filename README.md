@@ -24,20 +24,6 @@ Run the local server with `docsify serve`. You can preview your site in your bro
 docsify serve docs
 ```
 
-## Generate the pdf version
-
-Be sure to be outside of the Wago network, as the firewall will block the pulling of the docker image.
-
-Open WSL, go in the project root directory. **Not the docs directory**.
-
-Then to generate the documentation, run:
-
-```bash
-./gen-pdf.sh
-```
-
-The documentations will be generated under docs/pdf
-
 ### Tips to include images
 
 Check that there are no tabs before an image include
