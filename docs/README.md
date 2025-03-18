@@ -1,4 +1,4 @@
-# WEM installation and commissioning documentation
+# WEMS installation and commissioning documentation
 
 Welcome to the Wago Energy Manager installation and commissioning documentation!
 
@@ -27,7 +27,7 @@ The documentation is organized in 5 main steps:
 
 ## Project overview
 
-The WEM project (Wago Energy Manager) will develop an energy management ecosystem promoting the large-scale deployment 
+The WEMS project (Wago Energy Management System) will develop an energy management ecosystem promoting the large-scale deployment 
 of efficiency and flexibility services in small buildings. The ecosystem enables a low-cost straightforward deployment of multiple services and novel business 
 models.
 
