@@ -6,8 +6,6 @@ Welcome to the Wago Energy Manager installation and commissioning documentation!
 <img width="800" src="./_img/intro/HEMS_Illustration_GitHub_01.jpg"/>
 </div>
 
-The pdf generated version of this documentation is available <a href="./pdf/DOCUMENTATION.pdf" download="WEM_documenation.pdf">here<a>.
-
 [Quick Configuration](4_conf/conf) 
 
 ## Documentation structure
